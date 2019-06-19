@@ -10,6 +10,13 @@ helloWorld() {
   alert('Modus Application has an error!!!!')
   console.log('Hello World')
 }
+dissapearImg() {
+  var img = document.getElementById('SFTS-image');
+
+  var imgSrc = img.getAttribute('src');
+
+  imgSrc = "/assets/shapes.svg"
+}
   constructor() {}
 
 }
